@@ -53,6 +53,8 @@ namespace WindowsFormsAppMercado
             lblTotal.Text = "";
 
             txtProduto.Focus();
+
+            total = 0;
         }
 
         private void btnFechar_Click(object sender, EventArgs e)
